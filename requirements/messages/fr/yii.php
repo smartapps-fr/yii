@@ -11,9 +11,18 @@
  * Messages that no longer need translation will have their translations
  * enclosed between a pair of '@@' marks.
  *
+ * Message string can be used with plural forms format. Check i18n section
+ * of the guide for details.
+ *
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
+  'GD extension with<br />FreeType support<br />or ImageMagick<br />extension with<br />PNG support' => 'extension GD avec<br />support de FreeType<br />ou extension ImageMagick<br />avec support de PNG',
+  'Required by encrypt and decrypt methods.' => 'Nécessaire pour les méthodes encrypt et decrypt.',
+  'Required for MySQL database.' => 'Nécessaire si vous utilisez une base de donnée MySQL.',
+  'Required for Oracle database.' => 'Nécessaire si vous utilisez une base de donnée Oracle.',
+  'Required for PostgreSQL database.' => 'Nécessaire si vous utilisez une base de donnée PostgreSQL.',
+  'Required for SQLite database.' => 'Nécessaire si vous utilisez une base de donnée SQLite.',
   '$_SERVER does not have {vars}.' => '$_SERVER ne contient pas {vars}.',
   '$_SERVER variable' => 'variable $_SERVER',
   '$_SERVER["SCRIPT_FILENAME"] must be the same as the entry script file path.' => '$_SERVER["SCRIPT_FILENAME"] doit être égal au chemin du script d\'entrée.',
@@ -21,7 +30,6 @@ return array (
   'All <a href="https://www.yiiframework.com/doc/api/#system.db">DB-related classes</a>' => 'Toutes les <a href="https://www.yiiframework.com/doc/api/#system.db">classes relatives aux BD</a>.',
   'DOM extension' => 'extension DOM',
   'Either $_SERVER["REQUEST_URI"] or $_SERVER["QUERY_STRING"] must exist.' => 'Soit $_SERVER["REQUEST_URI"] soit $_SERVER["QUERY_STRING"] doit être défini.',
-  'GD extension' => 'extension GD',
   'Mcrypt extension' => 'extension Mcrypt',
   'Memcache extension' => 'extension Memcache',
   'PCRE extension' => 'extension PCRE',
@@ -34,9 +42,5 @@ return array (
   'Reflection extension' => 'extension Reflection',
   'SOAP extension' => 'extension SOAP',
   'SPL extension' => 'extension SPL',
-  'This is required by encrypt and decrypt methods.' => 'Nécessaire pour les méthodes encrypt et decrypt.',
-  'This is required if you are using MySQL database.' => 'Cette extension est requise si vous utilisez une base de donnée MySQL.',
-  'This is required if you are using PostgreSQL database.' => 'Cette extension est requise si vous utilisez une base de donnée PostgreSQL.',
-  'This is required if you are using SQLite database.' => 'Cette extension est requise si vous utilisez une base de donnée SQLite.',
   'Unable to determine URL path info. Please make sure $_SERVER["PATH_INFO"] (or $_SERVER["PHP_SELF"] and $_SERVER["SCRIPT_NAME"]) contains proper value.' => 'Impossible de déterminer les informations sur le chemin dans l\'URL. Vérifier que $_SERVER["PATH_INFO"] (ou $_SERVER["PHP_SELF"] et $_SERVER["SCRIPT_NAME"]) ont la bonne valeur',
 );
